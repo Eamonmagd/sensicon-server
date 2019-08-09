@@ -12,4 +12,5 @@ exports.get = function(event, context, callback) {
   };
 
   callback(null, result);
+  console.log("test")
 };
